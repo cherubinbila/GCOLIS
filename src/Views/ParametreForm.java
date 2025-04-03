@@ -343,6 +343,7 @@ public class ParametreForm extends javax.swing.JFrame {
 
         jPanel.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Historique des prix", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Red Hat Text Regular", 0, 24))); // NOI18N
 
+        TabPrix.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
         TabPrix.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},

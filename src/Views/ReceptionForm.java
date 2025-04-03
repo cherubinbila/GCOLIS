@@ -6,7 +6,6 @@ import Models.*;
 
 import java.sql.*;
 import javax.swing.JOptionPane;
-import javax.swing.table.DefaultTableModel;
 
 public class ReceptionForm extends javax.swing.JFrame {
 
@@ -141,7 +140,6 @@ public class ReceptionForm extends javax.swing.JFrame {
         TxtRechercher.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
 
         BtnRechercher.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
-        BtnRechercher.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/procurar.png"))); // NOI18N
         BtnRechercher.setText("Rechercher");
         BtnRechercher.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -291,7 +289,6 @@ public class ReceptionForm extends javax.swing.JFrame {
         );
 
         jButton1.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/accept.png"))); // NOI18N
         jButton1.setText("Enregistrer");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -300,7 +297,6 @@ public class ReceptionForm extends javax.swing.JFrame {
         });
 
         BtnAnnuler.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
-        BtnAnnuler.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/delete_icon.png"))); // NOI18N
         BtnAnnuler.setText("Annuler");
         BtnAnnuler.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -309,7 +305,6 @@ public class ReceptionForm extends javax.swing.JFrame {
         });
 
         BtnRetour.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
-        BtnRetour.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/arrow_left.png"))); // NOI18N
         BtnRetour.setText("Retour");
         BtnRetour.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

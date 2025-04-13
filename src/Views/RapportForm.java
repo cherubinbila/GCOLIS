@@ -264,7 +264,10 @@ public class RapportForm extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jTabbedPane1.setBackground(new java.awt.Color(250, 250, 250));
         jTabbedPane1.setFont(new java.awt.Font("Red Hat Text Regular", 0, 24)); // NOI18N
+
+        jPanel1.setBackground(new java.awt.Color(250, 250, 250));
 
         TabLivraison.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
         TabLivraison.setModel(new javax.swing.table.DefaultTableModel(
@@ -361,6 +364,8 @@ public class RapportForm extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("Liste des livraisons", jPanel1);
+
+        jPanel2.setBackground(new java.awt.Color(250, 250, 250));
 
         jLabel4.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
         jLabel4.setText("Periode");

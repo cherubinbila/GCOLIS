@@ -31,20 +31,33 @@ public class PrincipalForm extends javax.swing.JFrame {
         BtnParametre = new javax.swing.JButton();
         BtnEnvoi = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 204, 204));
         setResizable(false);
 
-        labelUsername.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(250, 250, 250));
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        labelUsername.setFont(new java.awt.Font("Red Hat Text Regular", 1, 18)); // NOI18N
+        jPanel1.add(labelUsername, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 330, 155, 32));
 
         jLabel2.setFont(new java.awt.Font("MADE Soulmaze", 0, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(121, 85, 72));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-boîte-50.png"))); // NOI18N
         jLabel2.setText("GColis");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 50, -1, 47));
 
-        BtnDeconnexion.setFont(new java.awt.Font("Red Hat Text", 0, 15)); // NOI18N
+        BtnDeconnexion.setBackground(new java.awt.Color(121, 85, 72));
+        BtnDeconnexion.setFont(new java.awt.Font("Red Hat Text", 0, 18)); // NOI18N
+        BtnDeconnexion.setForeground(new java.awt.Color(255, 255, 255));
         BtnDeconnexion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-sortie-20.png"))); // NOI18N
         BtnDeconnexion.setText("Se deconnecter");
+        BtnDeconnexion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        BtnDeconnexion.setFocusPainted(false);
         BtnDeconnexion.setMaximumSize(new java.awt.Dimension(156, 31));
         BtnDeconnexion.setMinimumSize(new java.awt.Dimension(156, 31));
         BtnDeconnexion.addActionListener(new java.awt.event.ActionListener() {
@@ -52,10 +65,15 @@ public class PrincipalForm extends javax.swing.JFrame {
                 BtnDeconnexionActionPerformed(evt);
             }
         });
+        jPanel1.add(BtnDeconnexion, new org.netbeans.lib.awtextra.AbsoluteConstraints(684, 408, -1, 49));
 
-        BtnRapport.setFont(new java.awt.Font("Red Hat Text", 0, 15)); // NOI18N
+        BtnRapport.setBackground(new java.awt.Color(121, 85, 72));
+        BtnRapport.setFont(new java.awt.Font("Red Hat Text", 0, 18)); // NOI18N
+        BtnRapport.setForeground(new java.awt.Color(255, 255, 255));
         BtnRapport.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-fichier-de-rapport-20.png"))); // NOI18N
         BtnRapport.setText("Rapports");
+        BtnRapport.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        BtnRapport.setFocusPainted(false);
         BtnRapport.setMaximumSize(new java.awt.Dimension(156, 31));
         BtnRapport.setMinimumSize(new java.awt.Dimension(156, 31));
         BtnRapport.addActionListener(new java.awt.event.ActionListener() {
@@ -63,10 +81,15 @@ public class PrincipalForm extends javax.swing.JFrame {
                 BtnRapportActionPerformed(evt);
             }
         });
+        jPanel1.add(BtnRapport, new org.netbeans.lib.awtextra.AbsoluteConstraints(398, 408, -1, 49));
 
-        BtnReception.setFont(new java.awt.Font("Red Hat Text", 0, 15)); // NOI18N
+        BtnReception.setBackground(new java.awt.Color(121, 85, 72));
+        BtnReception.setFont(new java.awt.Font("Red Hat Text", 0, 18)); // NOI18N
+        BtnReception.setForeground(new java.awt.Color(255, 255, 255));
         BtnReception.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-receive-20.png"))); // NOI18N
         BtnReception.setText("Reception de colis");
+        BtnReception.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        BtnReception.setFocusPainted(false);
         BtnReception.setMaximumSize(new java.awt.Dimension(156, 31));
         BtnReception.setMinimumSize(new java.awt.Dimension(156, 31));
         BtnReception.addActionListener(new java.awt.event.ActionListener() {
@@ -74,10 +97,15 @@ public class PrincipalForm extends javax.swing.JFrame {
                 BtnReceptionActionPerformed(evt);
             }
         });
+        jPanel1.add(BtnReception, new org.netbeans.lib.awtextra.AbsoluteConstraints(192, 408, -1, 49));
 
-        BtnParametre.setFont(new java.awt.Font("Red Hat Text", 0, 15)); // NOI18N
+        BtnParametre.setBackground(new java.awt.Color(121, 85, 72));
+        BtnParametre.setFont(new java.awt.Font("Red Hat Text", 0, 18)); // NOI18N
+        BtnParametre.setForeground(new java.awt.Color(255, 255, 255));
         BtnParametre.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-paramètres-20.png"))); // NOI18N
         BtnParametre.setText("Paramètres");
+        BtnParametre.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        BtnParametre.setFocusPainted(false);
         BtnParametre.setMaximumSize(new java.awt.Dimension(156, 31));
         BtnParametre.setMinimumSize(new java.awt.Dimension(156, 31));
         BtnParametre.addActionListener(new java.awt.event.ActionListener() {
@@ -85,10 +113,15 @@ public class PrincipalForm extends javax.swing.JFrame {
                 BtnParametreActionPerformed(evt);
             }
         });
+        jPanel1.add(BtnParametre, new org.netbeans.lib.awtextra.AbsoluteConstraints(532, 408, -1, 49));
 
-        BtnEnvoi.setFont(new java.awt.Font("Red Hat Text", 0, 15)); // NOI18N
+        BtnEnvoi.setBackground(new java.awt.Color(121, 85, 72));
+        BtnEnvoi.setFont(new java.awt.Font("Red Hat Text", 0, 18)); // NOI18N
+        BtnEnvoi.setForeground(new java.awt.Color(255, 255, 255));
         BtnEnvoi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-envoyé-18.png"))); // NOI18N
         BtnEnvoi.setText("Envoi de colis");
+        BtnEnvoi.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        BtnEnvoi.setFocusPainted(false);
         BtnEnvoi.setMaximumSize(new java.awt.Dimension(156, 31));
         BtnEnvoi.setMinimumSize(new java.awt.Dimension(156, 31));
         BtnEnvoi.addActionListener(new java.awt.event.ActionListener() {
@@ -96,66 +129,35 @@ public class PrincipalForm extends javax.swing.JFrame {
                 BtnEnvoiActionPerformed(evt);
             }
         });
+        jPanel1.add(BtnEnvoi, new org.netbeans.lib.awtextra.AbsoluteConstraints(27, 408, -1, 49));
 
         jLabel1.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/user.png"))); // NOI18N
-        jLabel1.setText("Utilisateur connecte:");
+        jLabel1.setText("Utilisateur connecté:");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 330, -1, 32));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(73, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(BtnEnvoi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(BtnReception, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(BtnRapport, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(BtnParametre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(BtnDeconnexion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(190, 190, 190)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel2)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addGap(0, 0, 0)
-                                .addComponent(labelUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addGap(75, 75, 75))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(58, 58, 58)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 209, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(labelUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(52, 52, 52)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(BtnParametre, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnDeconnexion, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnRapport, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnReception, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(BtnEnvoi, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(45, 45, 45))
-        );
+        jMenu1.setText("File");
+        jMenu1.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 895, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 493, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -193,6 +195,9 @@ public class PrincipalForm extends javax.swing.JFrame {
     private javax.swing.JButton BtnReception;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel labelUsername;
     // End of variables declaration//GEN-END:variables

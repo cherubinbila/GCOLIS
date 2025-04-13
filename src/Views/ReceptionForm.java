@@ -130,6 +130,7 @@ public class ReceptionForm extends javax.swing.JFrame {
         BtnRetour = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(250, 250, 250));
 
         jLabel3.setFont(new java.awt.Font("MADE Soulmaze", 0, 48)); // NOI18N
         jLabel3.setText("Reception de colis");

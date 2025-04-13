@@ -144,12 +144,17 @@ public class ParametreForm extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
+        jTabbedPane1.setBackground(new java.awt.Color(250, 250, 250));
         jTabbedPane1.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
 
+        jPanel1.setBackground(new java.awt.Color(250, 250, 250));
+
         jLabel1.setFont(new java.awt.Font("MADE Soulmaze", 0, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(121, 85, 72));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/icons8-boîte-50.png"))); // NOI18N
         jLabel1.setText("GColis");
 
+        jPanel2.setBackground(new java.awt.Color(250, 250, 250));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Information utilisateur", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Red Hat Text Regular", 0, 24))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
@@ -244,6 +249,7 @@ public class ParametreForm extends javax.swing.JFrame {
             }
         });
 
+        jPanel4.setBackground(new java.awt.Color(250, 250, 250));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Liste des utilisateurs", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Red Hat Text Regular", 0, 24))); // NOI18N
 
         TabUtilisateur.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
@@ -325,6 +331,8 @@ public class ParametreForm extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Parametre utilisateur", jPanel1);
 
+        jPanel3.setBackground(new java.awt.Color(250, 250, 250));
+
         jLabel4.setFont(new java.awt.Font("MADE Soulmaze", 0, 48)); // NOI18N
         jLabel4.setText("Gestion de colis");
 
@@ -341,6 +349,7 @@ public class ParametreForm extends javax.swing.JFrame {
             }
         });
 
+        jPanel.setBackground(new java.awt.Color(250, 250, 250));
         jPanel.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Historique des prix", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Red Hat Text Regular", 0, 24))); // NOI18N
 
         TabPrix.setFont(new java.awt.Font("Red Hat Text Regular", 0, 18)); // NOI18N
